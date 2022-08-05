@@ -43,7 +43,7 @@ You may also specify a file to use for configuration with the `-c` or
 | `cursorline` | Highlight all lines with a cursor. | `false` |
 | `gutters` | Gutters to display: Available are `diagnostics` and `line-numbers` and `spacer`, note that `diagnostics` also includes other features like breakpoints, 1-width padding will be inserted if gutters is non-empty | `["diagnostics", "line-numbers"]` |
 | `auto-completion` | Enable automatic pop up of auto-completion. | `true` |
-| `auto-format` | Enable automatic formatting on save. | `true` |
+| `auto-format` | Enable automatic formatting on save. Can be overridden by language specific `auto-format` in `languages.toml` file. | `true` |
 | `idle-timeout` | Time in milliseconds since last keypress before idle timers trigger. Used for autocompletion, set to 0 for instant. | `400` |
 | `completion-trigger-len` | The min-length of word under cursor to trigger autocompletion | `2` |
 | `auto-info` | Whether to display infoboxes | `true` |
